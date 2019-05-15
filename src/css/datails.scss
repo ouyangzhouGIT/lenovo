@@ -1,0 +1,244 @@
+@import "module/header.scss";
+@import "module/footer.scss";
+@import "module/base.scss";
+
+.big_main{
+	width: 100%;
+	height: 802px;
+	margin: 0 auto;
+	.title{
+		height: 35px;
+		background-color: #e8e8e8;
+		line-height: 35px;
+		color:  #535353;
+		font-size: 12px;
+		padding-left: 64px;
+	}
+	.main{
+		width: 1200px;
+		height: 765px;
+		margin: 0 auto;
+		border-bottom: 1px solid #c9c9c9;
+		.main-left{
+			width: 530px;
+			height: 765px;
+			float: left;
+			padding-top: 60px;
+			.view_thumbs{
+				width: 100%;
+				height: 630px;
+				.view_bd{
+					width: 520px;
+					height: 520px;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.view-ul{
+					height: 84px;
+					width: 520px;
+					list-style: none;
+					float: left;
+					margin-top: 10px;
+					margin-left: 10px;
+					li{
+						width: 84px;
+						height: 84px;
+						border: 1px solid #b5b5b5;
+						float: left;
+						margin-right: 19px;
+						a{
+							display: block;
+							width: 100%;
+							height: 100%;
+							img{
+								width: 100%;
+								height: 100%;
+							}
+						}
+					}
+				}
+			}
+			p{
+				height: 44px;
+				line-height: 44px;
+				font-size: 12px;
+				color: #707070;
+			}
+		}
+		
+		.main-right{
+			width: 660px;
+			height: 765px;
+			padding-top: 56px;
+			float: right;
+			padding-left: 90px;
+			.product-name{
+				height:50px ;
+				line-height: 50px;
+				font-size: 29px;
+			}
+			.product-attr{
+				height: 44px;
+				line-height: 44px;
+				font-size: 12px;
+				border-bottom: 1px solid #dcdcdc;
+				margin-bottom: 10px;
+			}
+			.product-message{
+				height: 66px;
+				span{
+					height: 33px;
+					font-size: 17px;
+					line-height: 33px;
+					display: block;
+				}
+				.message{
+					height: 33px;
+					line-height: 33px;
+					font-size: 12px;
+					color: #ff0000;
+					display: block;
+				}
+			}
+			.product-type{
+				height: 38px;
+				font-size: 18px;
+				line-height: 38px;
+			}
+			div{
+				height: 53px;
+				line-height: 53px;
+				text-align: center;
+				font-size: 12px;
+				border-radius: 6px;
+				border: 1px solid #c9c9c9;
+				margin-top: 10px;
+			}
+			.checked{
+				border: 1px solid #ff0000;
+			}
+		}
+	}
+}
+.footer-blank{
+	width: 100%;
+	height: 80px;
+}
+.big_shopBar{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #e8e8e8;
+	.shopBar{
+		width: 1200px;
+		height: 80px;
+		margin: 0 auto;
+		img{
+			float: left;
+		}
+		.service{
+			width: 74px;
+			height: 80px;
+			display: inline-block;
+		}
+		
+		.shopBar-right{
+			width: 555px;
+			height: 80px;
+			float: right;
+			line-height: 80px;
+			.product-num{
+				display: inline-block;
+				height: 80px;
+				font-size: 12px;
+				margin-right: 7px;
+				line-height: 80px;
+				float: left;
+			}
+			.num{
+				width: 86px;
+				height: 80px;
+				float: left;
+				left: 715px;
+				top: 27px;
+				a{
+					float: left;
+					width: 24px;
+					height: 24px;
+					border: 1px solid #9d9d9d;
+					margin-top: 27px;
+					line-height: 24px;
+					color: #6f6f6f;
+					text-align: center;
+				}
+				a:nth-child(2){
+					width: 36px;
+					color: black;
+				}
+			}
+			.product-price{
+				width: 171px;
+				height: 80px;
+				line-height: 80px;
+				text-align: center;
+				float: left;
+				color: #ff0000;
+				font-size: 16px;
+				font-weight: bold;
+				.price{
+					font-size: 18px;
+				}
+			}
+			.pay{
+				width: 104px;
+				float: left;
+				height: 40px;
+				background-color: #ff0000;
+				color: #fff;
+				margin-top: 18px;
+				line-height: 43px;
+				text-align: center;
+				border-radius: 6px;
+				margin-right: 19px;
+			}
+			.addshopCar{
+				width: 122px;
+				float: left;
+				height: 40px;
+				background-color: #fff;
+				color: black;
+				margin-top: 18px;
+				line-height: 43px;
+				text-align: center;
+				border: 1px solid #ff0000;
+				border-radius: 6px;
+			}
+		}
+	}
+}
+
+.big_dataMessage{
+	width: 100%;
+	height: auto;
+	p{
+		width: 1200px;
+		height: 38px;
+		line-height: 38px;
+		color: #e2231a;
+		font-size: 12px;
+		margin: 0 auto;
+		border-bottom: 1px solid #c9c9c9;
+		margin-bottom: 10px
+	}
+	.dataMessage{
+		width: 750px;
+		height: 4500px;
+		margin: 0 auto;
+		img{
+			float: left;
+		}
+	}
+}

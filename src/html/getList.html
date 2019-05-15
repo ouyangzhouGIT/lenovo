@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/getList.css"/>
+	</head>
+	<body>
+		<div id="header-content">
+			
+		</div>
+		
+		<div class="big_main">
+			<div class="main">
+				<p class="title">超薄本推荐</p>
+				<div id="list-container"></div>
+				<script type="text/html" id="list-type">
+					<ul>
+						{{each list item}}
+							<li>
+								<a href="/html/datails.html?id={{item.id}}">
+									<img src="{{item.img}}">
+									<p class="title">
+										{{item.title}}
+									</p>
+									<p class="name">
+										{{item.name}}
+									</p>
+									<p class="price">
+										￥{{item.price}}
+									</p>
+								</a>
+							</li>
+						{{/each}}
+					</ul>
+				</script>
+			</div>
+		</div>
+		
+		<div id="footer-content">
+			
+		</div>
+	<script src="/libs/require.min.js" type="text/javascript" data-main= "/js/getList"></script>	
+	</body>
+</html>

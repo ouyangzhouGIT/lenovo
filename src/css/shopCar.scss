@@ -1,0 +1,197 @@
+@import "module/base.scss";
+@import "module/header.scss";
+@import "module/footer.scss";
+
+.big_main{
+	width: 100%;
+	min-height: 447px;
+	.main{
+		width: 1200px;
+		min-height: 447px;
+		margin: 0 auto;
+		.pic1{
+			display: block;
+		}
+		.message{
+			height: 24px;
+			width: 1200px;
+			border: 1px solid #d9d8d6;
+			background-color: #f8f8f8;
+			margin-top: 46px;
+			position: relative;
+			.all{
+				position: absolute;
+				left: 21px;
+				top: 7px;
+			}
+			span{
+				float: left;
+				font-size: 12px;
+				height: 24px;
+				line-height: 24px;
+			}
+			span:nth-child(1){
+				margin-left: 207px;
+			}
+			span:nth-child(2){
+				margin-left: 276px;
+			}
+			span:nth-child(3),span:nth-child(4),span:nth-child(5),span:nth-child(6),{
+				margin-left: 126px;
+			}
+		}
+		.box{
+			width: 1200px;
+			min-height: 294px;
+			.noShop{
+				width: 100%;
+				height: 83px;
+				margin-top: 90px;
+				background: url("/image/pic3/shopCar-pic2.png") no-repeat 336px center;
+				padding-left: 446px;
+				display: none;
+				span{
+					float: left;
+					height: 83px;
+					line-height: 83px;
+					font-size: 18px;
+					margin-right: 14px;
+				}
+				a{
+					line-height: 29px;
+					width: 95px;
+					height: 30px;
+					margin-top: 27px;
+					float: left;
+					border-radius: 2px;
+					border: 1px solid #b5b5b5;
+					background-color: #d9d9d8;
+					outline: none;
+					text-align: center;
+					font-size: 12px;
+					color: black;
+				}
+			}
+			
+			.allShop{
+				width: 1200px;
+				list-style: none;
+				li{
+					border: 1px solid #b5b5b5;
+					width: 1200px;
+					height: 117px;
+					padding-left: 22px;
+					padding-top: 26px;
+					margin-top: 10px;
+					input{
+						float: left;
+						line-height: 10px;
+						margin-top: 23px;
+						margin-right: 46px;
+					}
+					img{
+						width: 99px;
+						height: 63px;
+						float: left;
+					}
+					.p1{
+						width: 327px;
+						height: 63px;
+						float: left;
+						line-height: 33px;
+						padding-left: 24px;
+						padding-right: 87px;
+						font-size: 12px;
+					}
+					.size{
+						width: 146px;
+						height: 63px;
+						float: left;
+						line-height: 63px;
+					}
+					.price{
+						width: 146px;
+						height: 62px;
+						float: left;
+						line-height: 63px;
+					}
+					.num{
+						width: 150px;
+						height: 63px;
+						float: left;
+						a{
+							float: left;
+							width: 20px;
+							height: 20px;
+							border: 1px solid #9d9d9d;
+							margin-top: 19px;
+							line-height: 17px;
+							color: #6f6f6f;
+							text-align: center;
+							background-color: #eeeeee;
+						}
+						a:nth-child(2){
+							width: 56px;
+							color: black;
+							background-color:#fff;
+						}
+					}
+					.pro-allPrice{
+						width: 130px;
+						height: 63px;
+						float: left;
+						line-height: 59px;
+						color:#e2231a;
+					}
+					.doList{
+						width: 118px;
+						height: 63px;
+						font-size: 12px;
+						color: black;
+						float: left;
+						line-height: 59px;
+					}
+				}
+				
+				.rump-li{
+					padding-top: 0;
+					background-color: #f8f8f8;
+					.li-left{
+						margin-top: 26px;
+						width: 152px;
+						height: 16px;
+						float: left;	
+						.all{
+							margin-top: 7px;
+							margin-right: 0;
+						}
+						a{
+							font-size: 12px;
+							color: black;
+							line-height: 16px;
+							margin-left: 2px;
+						}
+						.allBtn{
+							margin-right: 28px;
+						}
+					}
+					.li-right{
+						width: 120px;
+						height: 100%;
+						float: right;
+						line-height: 40px;
+						p{
+							width: 120px;
+							height: 35px;
+							float: left;
+							font-size: 12px;
+							.end-allPrice{
+								color: #e2231a;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
